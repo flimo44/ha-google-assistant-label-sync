@@ -61,6 +61,7 @@ Usage :
 
 <img width="455" height="375" alt="Capture d&#39;écran 2026-06-26 201643" src="https://github.com/user-attachments/assets/a262942a-5fb1-4a84-b88e-5db12eb67be8" />
 
+
 2) Preview the generated configuration
 
 python3 /config/scripts/ga_label_sync.py --label "google_assistant" --dry-run
@@ -93,13 +94,17 @@ switch.prise_pompe2:
   name: Pompe piscine
   room: Piscine
 ```
+
+
 3 ) Generate the file:
 
 python3 /config/scripts/ga_label_sync.py --label "google_assistant"
 
 <img width="454" height="446" alt="Capture d&#39;écran 2026-06-26 200340" src="https://github.com/user-attachments/assets/6f0938ae-13e9-4856-9b4f-7db5e8290171" />
 
+
 4 ) Restart Home assistant
+
 
 5 ) Synchronize Google Home
 
