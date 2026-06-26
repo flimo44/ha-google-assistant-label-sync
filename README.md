@@ -32,7 +32,7 @@ Voice Assistant Sync
 Google       Alexa
 ```
 
-## Example Home Assistant labels
+## Generated entity_config
 
 ```yaml
 switch.prise_pompe:
@@ -53,15 +53,15 @@ google_assistant:
   entity_config: !include google_assistant_entities.yaml
 ```
 
-## Installation
+## Quick start
 
 Usage :
 
-1 ) Add label
+1 ) Add the Home Assistant label
 
 <img width="455" height="375" alt="Capture d&#39;écran 2026-06-26 201643" src="https://github.com/user-attachments/assets/a262942a-5fb1-4a84-b88e-5db12eb67be8" />
 
-2) Vérify result
+2) Preview the generated configuration
 
 python3 /config/scripts/ga_label_sync.py --label "google_assistant" --dry-run
 ```
@@ -99,7 +99,7 @@ python3 /config/scripts/ga_label_sync.py --label "google_assistant"
 
 4 ) Restart Home assistant
 
-5 ) Import google Home
+5 ) Synchronize Google Home
 
 <img width="454" height="446" alt="Capture d&#39;écran 2026-06-26 200340" src="https://github.com/user-attachments/assets/6f0938ae-13e9-4856-9b4f-7db5e8290171" />
 
