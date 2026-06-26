@@ -15,7 +15,8 @@ OUTPUT_FILE = CONFIG_DIR / "google_assistant_entities.yaml"
 
 DEFAULT_DOMAINS = {
     "light", "switch", "cover", "climate", "fan",
-    "input_boolean", "scene", "script", "lock", "vacuum"
+    "input_boolean", "input_select", "scene", "script",
+    "lock", "vacuum", "select"
 }
 
 
