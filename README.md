@@ -37,7 +37,8 @@ Instead of manually maintaining a long YAML list of exposed entities, simply add
                                 │
                          ┌──────┴───────┐
                          │              │
-                        Google       Alexa
+               Google Assistant    Amazon Alexa
+       
 ```
 
 ## Generated entity_config
