@@ -13,7 +13,8 @@ Instead of manually maintaining a long YAML list of exposed entities, simply add
 - Ignore disabled or hidden entities
 - Dry-run mode before writing the file
 
-``` Home Assistant
+```
+Home Assistant
         │
         ▼
 Labels
