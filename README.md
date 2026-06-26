@@ -19,22 +19,12 @@ Instead of manually maintaining a long YAML list of exposed entities, simply add
 
 ## How it works
 
-Home Assistant
-        │
-        ▼
-     Labels
-        │
-        ▼
-Voice Assistant Sync
-        │
- ┌──────┴───────┐
- ▼              ▼
-Google      Amazon Alexa
+
 ```
-Home Assistant
+   Home Assistant
         │
         ▼
-Labels
+      Labels
         │
         ▼
 Voice Assistant Sync
@@ -69,12 +59,13 @@ google_assistant:
 
 Usage :
 
-1 ) Add the Home Assistant label
+### Step 1 — Add the label
 
 <img width="455" height="375" alt="Capture d&#39;écran 2026-06-26 201643" src="https://github.com/user-attachments/assets/a262942a-5fb1-4a84-b88e-5db12eb67be8" />
 
 
-2 ) Preview the generated configuration
+### Step 2 — Preview the generated configuration
+
 
 <img width="555" height="172" alt="Capture d&#39;écran 2026-06-26 203136" src="https://github.com/user-attachments/assets/66ea6d63-983b-467b-9870-198d64b027bd" />
 
@@ -112,22 +103,25 @@ switch.prise_pompe2:
 ```
 
 
-3 ) Generate the file:
+### Step 3 — Generate the file
 
 python3 /config/scripts/ga_label_sync.py --label "google_assistant"
 
 <img width="454" height="446" alt="Capture d&#39;écran 2026-06-26 200340" src="https://github.com/user-attachments/assets/6f0938ae-13e9-4856-9b4f-7db5e8290171" />
 
 
-4 ) Restart Home assistant
-
-
-5 ) Synchronize Google Home
+### Step 4 — Restart Home Assistant
 
 
 
+### Step 5 — Synchronize Google Home
+
+
+Google Home before synchronization
 
 <img width="1080" height="2400" alt="Screenshot_2026-06-26-19-44-33-60_2d2bd67b5e15ae98c151ac739cd6881e" src="https://github.com/user-attachments/assets/a03d1005-fde8-4186-b8ea-da2f426c5a84" />
+
+Google Home after synchronization
 
 <img width="1080" height="2400" alt="Screenshot_2026-06-26-19-45-48-86_2d2bd67b5e15ae98c151ac739cd6881e" src="https://github.com/user-attachments/assets/5b4d96cc-9da9-4419-9d1f-f5eac4fbec8c" />
 
