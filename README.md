@@ -57,6 +57,7 @@ Generate the file:
 
 python3 /config/scripts/ga_label_sync.py --label "google_assistant"
 
+<img width="1080" height="2400" alt="Screenshot_2026-06-26-19-45-48-86_2d2bd67b5e15ae98c151ac739cd6881e" src="https://github.com/user-attachments/assets/5b4d96cc-9da9-4419-9d1f-f5eac4fbec8c" />
 
 License
 MIT
