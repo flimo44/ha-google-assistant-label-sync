@@ -2,6 +2,8 @@
 
 ### Automatically generate your Google Assistant configuration from Home Assistant labels.
 
+
+
 Do you maintain dozens of Google Assistant entities manually?
 
 This project lets Home Assistant labels become the single source of truth.
