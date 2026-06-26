@@ -12,6 +12,7 @@ Instead of manually maintaining a long YAML list of exposed entities, simply add
 - Use Home Assistant areas as Google rooms
 - Ignore disabled or hidden entities
 - Dry-run mode before writing the file
+<img width="1080" height="2400" alt="Screenshot_2026-06-26-19-44-33-60_2d2bd67b5e15ae98c151ac739cd6881e" src="https://github.com/user-attachments/assets/a03d1005-fde8-4186-b8ea-da2f426c5a84" />
 
 ```
 Home Assistant
