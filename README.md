@@ -1,3 +1,5 @@
+# HA Google Assistant Label Sync
+
 # Automatically generate your Google Assistant configuration from Home Assistant labels.
 
 > 🚧 Early development project
