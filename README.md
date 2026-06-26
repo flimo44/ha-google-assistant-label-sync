@@ -1,4 +1,4 @@
-# HA Google Assistant Label Sync
+# # HA Voice Label Sync
 
 ### Automatically generate your Google Assistant configuration from Home Assistant labels.
 
