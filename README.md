@@ -57,6 +57,8 @@ google_assistant:
 
 Usage :
 
+1 )
+
 python3 /config/scripts/ga_label_sync.py --label "google_assistant" --dry-run
 ```
 # --- Couloir ---
@@ -87,9 +89,13 @@ switch.prise_pompe2:
   name: Pompe piscine
   room: Piscine
 ```
-Generate the file:
+2 ) Generate the file:
 
 python3 /config/scripts/ga_label_sync.py --label "google_assistant"
+
+3 ) Restart Home assistant
+
+4 ) Import google Home
 
 <img width="454" height="446" alt="Capture d&#39;écran 2026-06-26 200340" src="https://github.com/user-attachments/assets/6f0938ae-13e9-4856-9b4f-7db5e8290171" />
 
