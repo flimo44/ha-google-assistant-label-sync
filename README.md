@@ -26,12 +26,12 @@ HA Voice Label Sync has been designed to support multiple voice assistants.
 - Currently supported :
 
 
-✅ Google Assistant
+      ✅ Google Assistant
 
 - Planned :
 
-Amazon Alexa
-Apple HomeKit
+      Amazon Alexa
+      Apple HomeKit
 
 Instead of maintaining a long list of exposed entities manually, simply assign a label in Home Assistant, run the script, and let HA Voice Label Sync generate the configuration for you.
 
