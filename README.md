@@ -2,6 +2,19 @@
 
 ### Automatically generate your Google Assistant configuration from Home Assistant labels.
 
+## Current Status
+
+The project has been designed to support multiple voice assistants.
+
+Currently supported:
+
+- Google Assistant
+
+Planned:
+
+- Amazon Alexa
+- Apple HomeKit
+
 ## Why?
 
 Google Assistant is currently the first supported backend.
@@ -10,7 +23,7 @@ The project has been designed to support additional voice assistants in the futu
 
 Managing Google Assistant entities manually quickly becomes difficult.
 
-HA Voice Label Sync automatically generates your Google Assistant configuration directly from Home Assistant labels.
+HA Voice Label Sync automatically generates your Assistant configuration directly from Home Assistant labels.
 
 No duplicated configuration.
 
