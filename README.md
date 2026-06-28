@@ -8,6 +8,8 @@
 
 ## Why?
 
+Do you maintain dozens of Google Assistant entities manually?
+
 Managing voice assistant configurations manually quickly becomes difficult.
 
 HA Voice Label Sync automatically generates the required configuration from Home Assistant labels, making your labels the single source of truth.
