@@ -83,3 +83,27 @@ Guiding Principles
 * Home Assistant remains the source of truth.
 * Simplicity over complexity.
 * Build on solid foundations.
+
+---
+
+# Release Checklist
+
+Before closing an issue or considering a change released, verify:
+
+- [ ] The idea has been validated.
+- [ ] A GitHub Issue exists.
+- [ ] The issue is assigned to a Milestone.
+- [ ] The issue is linked to the Project.
+- [ ] Development is complete.
+- [ ] The feature has been tested.
+- [ ] Documentation has been updated.
+- [ ] CHANGELOG has been updated if required.
+- [ ] `git status` is clean.
+- [ ] Changes have been committed.
+- [ ] `git pull --rebase` completed.
+- [ ] Changes have been pushed.
+- [ ] The issue is moved to Released.
+- [ ] The GitHub Issue is closed.
+
+---
+> Never skip a checklist item because “it is only a small change”.
