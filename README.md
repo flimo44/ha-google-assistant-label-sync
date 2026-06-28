@@ -92,6 +92,12 @@ The script is located in:
 
 scripts/ga_label_sync.py
 
+```Tip
+
+If you simply want to use the script, downloading scripts/ga_label_sync.py is enough.
+
+Cloning the repository is recommended only if you plan to follow development or contribute to the project.
+```
 
 Usage :
 
