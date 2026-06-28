@@ -67,6 +67,32 @@ google_assistant:
 
 ## Quick start
 
+Installation
+
+Option 1 – Download the script
+
+Download the latest version of ga_label_sync.py from the repository.
+
+Copy it to your Home Assistant scripts directory.
+
+Typical locations are:
+
+/config/scripts/
+
+or
+
+<home-assistant-config>/scripts/
+
+depending on your Home Assistant installation.
+
+Option 2 – Clone the repository
+git clone https://github.com/flimo44/ha-voice-label-sync.git
+
+The script is located in:
+
+scripts/ga_label_sync.py
+
+
 Usage :
 
 ### Step 1 — Add the label
