@@ -1,6 +1,3 @@
-
-# PRODUCT.md
-
 # HA Voice Label Sync – Product Vision
 
 ## Mission
