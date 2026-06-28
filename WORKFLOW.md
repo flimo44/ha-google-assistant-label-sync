@@ -1,4 +1,4 @@
-## DEVELOPMENT_WORKFLOW.md
+## WORKFLOW.md
 # Development Workflow
 This document describes the development workflow used by the HA Voice Label Sync project.
 The objective is to keep the project simple, maintainable and well documented.
