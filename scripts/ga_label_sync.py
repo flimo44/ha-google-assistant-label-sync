@@ -1,8 +1,26 @@
 #!/usr/bin/env python3
+"""
+HA Voice Label Sync.
+
+Generate Google Assistant entity configuration from Home Assistant labels.
+
+This script reads Home Assistant registries from the `.storage` directory,
+selects entities matching a given label, and generates a
+google_assistant_entities.yaml file.
+
+Current backend:
+    Google Assistant
+
+Project:
+    https://github.com/flimo44/ha-voice-label-sync
+"""
 import argparse
 import json
 import re
 from pathlib import Path
+
+# Home Assistant stores entity, device, area and label metadata
+# in JSON registry files under /config/.storage.
 
 CONFIG_DIR = Path("/config")
 STORAGE = CONFIG_DIR / ".storage"
@@ -12,6 +30,9 @@ DEVICE_REGISTRY = STORAGE / "core.device_registry"
 AREA_REGISTRY = STORAGE / "core.area_registry"
 LABEL_REGISTRY = STORAGE / "core.label_registry"
 OUTPUT_FILE = CONFIG_DIR / "google_assistant_entities.yaml"
+
+# Domains that can reasonably be exposed to Google Assistant by default.
+# Users can override this list with the --domains argument.
 
 DEFAULT_DOMAINS = {
     "light", "switch", "cover", "climate", "fan",
