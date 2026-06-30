@@ -79,6 +79,7 @@ Guiding Principles
 * Think before coding.
 * One step at a time.
 * Validate before continuing.
+* Never trust code blindly. Understand it first.
 * Documentation is part of the feature.
 * Home Assistant remains the source of truth.
 * Simplicity over complexity.
