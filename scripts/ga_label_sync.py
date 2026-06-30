@@ -8,8 +8,7 @@ This script reads Home Assistant registries from the `.storage` directory,
 selects entities matching a given label, and generates a
 google_assistant_entities.yaml file.
 
-Current backend:
-    Google Assistant
+Current backend: Google Assistant
 
 Project:
     https://github.com/flimo44/ha-voice-label-sync
@@ -42,15 +41,32 @@ DEFAULT_DOMAINS = {
 
 
 def load_json(path):
+    """
+    Load and parse a JSON file.
+
+    Args:
+        path: Path to the JSON file.
+
+    Returns:
+        Parsed JSON content.
+    """
     with path.open("r", encoding="utf-8") as f:
         return json.load(f)
 
 
 def yaml_escape(value):
+    """
+    Prepare a value for safe YAML output.
+
+    Empty values are written as explicit empty strings.
+    Values containing YAML-sensitive characters are quoted.
+    """   
     value = str(value).strip()
     if not value:
         return '""'
-    if re.search(r'[:#{}\[\],&*?|\-<>=!%@`"\']', value):
+    # Characters that require quoting in YAML.
+    YAML_QUOTING_PATTERN = r'[:#{}\[\],&*?|\-<>=!%@`"\']'
+    if re.search(YAML_QUOTING_PATTERN, value):
         return json.dumps(value, ensure_ascii=False)
     return value
 
